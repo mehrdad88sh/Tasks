@@ -1,0 +1,113 @@
+/* define font embed */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?9hqwxi');
+    src:  url('../fonts/icomoon.eot?9hqwxi#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?9hqwxi') format('truetype'),
+    url('../fonts/icomoon.woff?9hqwxi') format('woff'),
+    url('../fonts/icomoon.svg?9hqwxi#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    font-size: 80%;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-cloud:before {
+    content: "\e9c1";
+    color: #ffffff;
+
+}
+
+.icon-cloudy:before {
+    content: "\e900";
+    color: #ffffff;
+}
+
+/* end of font embed define */
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../img/sky.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*define animation*/
+@keyframes moving-clouds {
+    from {
+        margin-left: -20%;
+    }
+    to {
+        margin-left: 100%;
+    }
+}
+
+@keyframes up {
+    0%, 100% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.2;
+    }
+    20% {
+        opacity: 0.5;
+    }
+    30%, 90% {
+        opacity: 1;
+    }
+}
+/*end of define animation*/
+
+.clouds {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    font-size: 100px;
+}
+
+.icon-cloudy {
+    animation: moving-clouds 14s infinite ease-in, up 2s infinite;
+}
+
+.icon-cloud {
+    animation-name: moving-clouds ;
+    animation-duration: 20s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate-reverse;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+
+
+
+
