@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33db3198-7f3c-45c5-b0e9-0fc0546e006d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Anexinet/anexinet.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Anexinet/assets/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Anexinet/img/generic-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Anexinet/img/white-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Button/button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cube/assets/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cube/cube.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/blue-sky.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tasks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/blue-sky/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/blue-sky/assets/fonts/icomoon.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/blue-sky/assets/fonts/icomoon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/blue-sky/assets/fonts/icomoon.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/blue-sky/assets/fonts/icomoon.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/sky.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/blue-sky/assets/img/sky.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blue-sky.html" beforeDir="false" afterPath="$PROJECT_DIR$/blue-sky/blue-sky.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/blue-sky/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,7 +16,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Anexinet/anexinet.html">
+        <entry file="file://$PROJECT_DIR$/Lamp/anexinet.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="560">
               <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
@@ -41,11 +24,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Anexinet/assets/css/styles.css">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lamp/assets/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="738">
+            <state relative-caret-position="960">
               <caret line="89" column="1" selection-start-line="89" selection-end-line="89" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" selection-start-column="1" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -70,7 +62,6 @@
         <option value="$PROJECT_DIR$/assets/css.css" />
         <option value="$PROJECT_DIR$/assets/css/styless.css" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/../Training/assets/css/styles.css" />
         <option value="$PROJECT_DIR$/blue-sky.html" />
         <option value="$PROJECT_DIR$/assets/css/styles.css" />
@@ -80,6 +71,7 @@
         <option value="$PROJECT_DIR$/Button/button.html" />
         <option value="$PROJECT_DIR$/Anexinet/anexinet.html" />
         <option value="$PROJECT_DIR$/Anexinet/assets/css/styles.css" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -100,17 +92,6 @@
             <path>
               <item name="Tasks" type="b2602c69:ProjectViewProjectNode" />
               <item name="Tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tasks" type="462c0819:PsiDirectoryNode" />
-              <item name="Anexinet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Tasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Tasks" type="462c0819:PsiDirectoryNode" />
-              <item name="Anexinet" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -191,12 +172,20 @@
       <workItem from="1552902576818" duration="168000" />
       <workItem from="1557226173866" duration="19000" />
       <workItem from="1557231168725" duration="3038000" />
-      <workItem from="1557558082707" duration="7765000" />
+      <workItem from="1557558082707" duration="8073000" />
     </task>
+    <task id="LOCAL-00001" summary="implementing lamp">
+      <created>1557663901559</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557663901559</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33477000" />
+    <option name="totallyTimeSpent" value="33785000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
@@ -205,6 +194,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49899396" visible="true" weight="0.15007898" />
       <window_info id="Structure" order="1" sideWeight="0.501006" side_tool="true" weight="0.13902053" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32997987" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -243,10 +233,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="implementing lamp" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementing lamp" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/styless.css" />
     <entry file="file://$PROJECT_DIR$/assets/css.css" />
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/assets/css/styless.css" />
     <entry file="file://$PROJECT_DIR$/../Training/assets/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -316,20 +311,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Anexinet/img/generic-image.jpg">
+    <entry file="file://$PROJECT_DIR$/Lamp/img/generic-image.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Anexinet/anexinet.html">
+    <entry file="file://$PROJECT_DIR$/Lamp/anexinet.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
           <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Anexinet/assets/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/Lamp/assets/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
+        <state relative-caret-position="960">
           <caret line="89" column="1" selection-start-line="89" selection-end-line="89" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
