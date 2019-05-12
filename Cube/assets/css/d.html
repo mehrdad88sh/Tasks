@@ -1,0 +1,254 @@
+/*
+Name: Parvin Jahani
+Date: March 14, 2019
+Program: Project
+Subject: PRG 255
+Version: 1.0
+*/
+
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <stdio.h>
+    #include <stdlib.h>
+    #include <conio.h>
+    #include <ctype.h>
+
+    typedef struct {
+    char FullName[30];
+    char booking_ID[12];
+    int seats;
+    }Seat;
+    Seat choice[2][6];
+
+    //void explainProg(void);
+
+    void mainMenu(void);
+    void seat(void);
+    void booking(void);
+    void EmptySeats(void);
+    void AssignedSeats(void);
+    //void AssinedCustomer(int custSeat);
+    //void DeleteOne(int delete_one);
+    //void DeleteAll(int delete_all);
+    void looping(void);
+    void exit_();
+
+    //Variables
+    char selection ;
+    int i;
+    int j;
+    int seats_num[12] = { 0 };
+    int seatsAvailable = 12;
+    int booking_ID = 100;
+
+    int main(void)
+    {
+    mainMenu();
+    while (selection != 'q' || 'Q')
+    {
+    looping();
+    }
+
+    system("pause");
+    return 0;
+    }
+
+    void mainMenu()	//main menu function
+
+    {
+    system("cls");
+
+    printf("\n\t\t\t\t--WELCOME TO The Econo-Air lines fleet--");	//print welcome screen
+
+    printf("\n\n\t\t\t\t========================================");
+    printf("\n\t\t\t\t\t\tMain Menu\n");
+    printf("\t\t\t\t========================================");
+
+    printf("\n\t\t\t\tA = To Display ALL seat assignments\n");
+    printf("\n\t\t\t\tB = To Show ONLY a list of empty seats and show total of empty\n");
+    printf("\n\t\t\t\tC = To SHOW ONLY the assigned seats with name of person and totalassigned.\n");
+    printf("\n\t\t\t\tD = To Assign the customer to an emptyseat.\n");
+    printf("\n\t\t\t\tE = To Delete ONE seatassignment.\n");
+    printf("\n\t\t\t\tF = To Delete ALL seatassignments.\n");
+    printf("\n\t\t\t\tQ = to Quit the system\n\n");
+
+    printf("\n\n\t\t\t\tPlease enter your choice:");
+    scanf("%c", &selection);
+    //selection = getchar();
+    }
+    //looping
+    void looping()
+    {
+    switch (selection)
+    {
+
+    case 'A' | 'a':
+    {
+    seat();
+    break;
+    }
+    case 'B' | 'b':
+    {
+    EmptySeats();
+    break;
+    }
+    case 'C' | 'c':
+    {
+    AssignedSeats();
+    break;
+    }
+    case 'D' | 'd':
+    {
+    booking();
+    break;
+    }
+    /*case 'E' | 'e':
+    {
+    DeleteOne();
+    break;
+    }
+    case 'F' | 'f':
+    {
+    DeleteAll;
+    break;
+    }*/
+    case 'Q' | 'q':
+    {
+    exit_();
+    printf("Thank you for choosing Airlines Reservation System");
+    break;
+    }
+
+    default:
+    {
+    printf("Please enter your selection : ");
+
+    }
+    return;
+    }
+    }
+
+
+
+    //booking
+    void booking()
+    {
+    for (i = 0; i < 4; i++)
+    for (j = 0; j < 5; j++)
+    {
+    printf("\tPlease enter seats number   : ");
+    scanf("%d", &choice[i][j].seats);
+    fflush(stdin);
+
+    if (choice[i][j].seats <= seatsAvailable)
+    {
+    printf("\tPlease enter passenger name : ");
+    scanf("%[^\n]", choice[i][j].FullName);
+    fflush(stdin);
+    booking_ID++;
+    }
+    seatsAvailable = seatsAvailable - choice[i][j].seats;
+
+    system("pause");
+    system("cls");
+    mainMenu();
+    }
+
+    if (seatsAvailable < 0)
+    {
+    printf("\n");
+    printf("\tSORRY, the flight is fully booked\n");
+    printf("\t=================END=================\n\n");
+    mainMenu();
+    }
+    if (choice[i][j].seats > seatsAvailable)
+    {
+    printf("\n");
+    printf("\tThe flight leave %d seats\n", seatsAvailable);
+    mainMenu();
+    }
+    return;
+    }
+    void EmptySeats(void)
+    {
+    system("cls");
+
+    int row, col;
+    int seats[6][2] = { 0 };
+    printf("\t\tEmpty Seat In Flight\n\n");
+    printf("\t1\t2\n");
+    for (row = 0; row < 6; row++)
+    {
+    printf("\n%d\n", row + 1);
+    for (col = 0; col < 2; col++)
+    {
+    printf("\t%d\n", seats[row][col]);
+    }
+    }
+    mainMenu();
+
+    system("pause");
+
+    puts("");
+    return;
+    }
+
+    void AssinedCustomer(int custSeat)
+
+    {
+    printf("Please choose your seat --> ");
+    scanf("%d", &custSeat);
+
+    }
+    void CustName(char name[])
+    {
+    printf("\nYour name is: %s\n\n", name);
+
+    return;
+    }
+
+    void AssignedSeats(void)
+    {
+    system("cls");
+
+    int row, col;
+    int seats[6][2] = { 0 };
+    printf("\t\tAll Seat In Flight\n\n");
+    printf("\t1\t2\n");
+    for (row = 0; row < 6; row++)
+    {
+    printf("\n%d ", row + 1);
+    for (col = 0; col < 2; col++)
+    {
+    printf("\t%d", seats[row][col]);
+    }
+
+    }
+
+    printf("\n\nNote: Please choose your seat using row and column format.\n\nFor example:To book seat at row 1 column 3 type 13\n\n");
+    puts("");
+    return;
+    }
+    void seat()
+    {
+    printf("  A   B	  C	  D	E\n");
+    for (j = 0; j < 5; j++)
+    {
+    printf("%d  ", booking_ID);
+    }
+    for (i = 0; i < 4; i++)
+    {
+    printf("\n");
+    printf("%d\n", i + 1);
+    }
+    system("pause");
+    system("cls");
+    mainMenu();
+    return;
+    }
+    void exit_()
+    {
+    printf("\tThank you for using this system\n");
+    exit(1);
+    return;
+    }
