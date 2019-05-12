@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33db3198-7f3c-45c5-b0e9-0fc0546e006d" name="Default Changelist" comment="" />
+    <list default="true" id="33db3198-7f3c-45c5-b0e9-0fc0546e006d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Anexinet/anexinet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Anexinet/assets/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Anexinet/img/generic-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Anexinet/img/white-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Button/button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cube/assets/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Cube/cube.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blue-sky.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Tasks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/blue-sky/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon.eot" beforeDir="false" afterPath="$PROJECT_DIR$/blue-sky/assets/fonts/icomoon.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/blue-sky/assets/fonts/icomoon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/blue-sky/assets/fonts/icomoon.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/fonts/icomoon.woff" beforeDir="false" afterPath="$PROJECT_DIR$/blue-sky/assets/fonts/icomoon.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/sky.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/blue-sky/assets/img/sky.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blue-sky.html" beforeDir="false" afterPath="$PROJECT_DIR$/blue-sky/blue-sky.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/blue-sky/readme.md" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,31 +33,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blue-sky.html">
+        <entry file="file://$PROJECT_DIR$/Anexinet/anexinet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="560">
+              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="84">
-                <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
+        <entry file="file://$PROJECT_DIR$/Anexinet/assets/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="682">
-              <caret line="110" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="738">
+              <caret line="89" column="1" selection-start-line="89" selection-end-line="89" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -67,11 +74,18 @@
         <option value="$PROJECT_DIR$/../Training/assets/css/styles.css" />
         <option value="$PROJECT_DIR$/blue-sky.html" />
         <option value="$PROJECT_DIR$/assets/css/styles.css" />
+        <option value="$PROJECT_DIR$/Cube/cube.html" />
+        <option value="$PROJECT_DIR$/Cube/assets/css/styles.css" />
+        <option value="$PROJECT_DIR$/Cube/assets/css/d.html" />
+        <option value="$PROJECT_DIR$/Button/button.html" />
+        <option value="$PROJECT_DIR$/Anexinet/anexinet.html" />
+        <option value="$PROJECT_DIR$/Anexinet/assets/css/styles.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1920" />
+    <option name="x" value="1437" />
+    <option name="width" value="483" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -84,19 +98,35 @@
         <subPane>
           <expand>
             <path>
-              <item name="blue-sky" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blue-sky" type="462c0819:PsiDirectoryNode" />
+              <item name="Tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="blue-sky" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blue-sky" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="Tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="Anexinet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tasks" type="462c0819:PsiDirectoryNode" />
+              <item name="Anexinet" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Tasks" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -109,6 +139,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Anexinet/img" />
+      <recent name="$PROJECT_DIR$/blue-sky" />
       <recent name="$PROJECT_DIR$/assets/img" />
       <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/assets/fonts" />
@@ -125,6 +157,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="anexinet.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Tasks/Anexinet/anexinet.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.anexinet.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -143,15 +185,42 @@
       <workItem from="1551804058708" duration="4985000" />
       <workItem from="1552293515579" duration="190000" />
       <workItem from="1552379728496" duration="1422000" />
+      <workItem from="1552478963147" duration="27000" />
+      <workItem from="1552480915462" duration="701000" />
+      <workItem from="1552482929090" duration="3510000" />
+      <workItem from="1552902576818" duration="168000" />
+      <workItem from="1557226173866" duration="19000" />
+      <workItem from="1557231168725" duration="3038000" />
+      <workItem from="1557558082707" duration="7765000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18249000" />
+    <option name="totallyTimeSpent" value="33477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49899396" visible="true" weight="0.15007898" />
+      <window_info id="Structure" order="1" sideWeight="0.501006" side_tool="true" weight="0.13902053" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32997987" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13902053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -164,12 +233,12 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32997987" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32997987" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -178,16 +247,6 @@
     <entry file="file://$PROJECT_DIR$/styless.css" />
     <entry file="file://$PROJECT_DIR$/assets/css.css" />
     <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="84">
-            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/styless.css" />
     <entry file="file://$PROJECT_DIR$/../Training/assets/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -199,20 +258,78 @@
     <entry file="file://$USER_HOME$/Downloads/icomoon/style.css" />
     <entry file="file://$USER_HOME$/Downloads/fontawesome-free-5.7.2-web/css/brands.css" />
     <entry file="file://$USER_HOME$/Downloads/fontawesome-free-5.7.2-web/css/solid.css" />
-    <entry file="file://$PROJECT_DIR$/assets/img/sky.jpg">
+    <entry file="file://$PROJECT_DIR$/blue-sky/assets/img/sky.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
+    <entry file="file://$PROJECT_DIR$/blue-sky/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="84">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue-sky/blue-sky.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
+        <state relative-caret-position="644">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cube/assets/css/d.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2911">
+          <caret line="254" selection-start-line="254" selection-end-line="254" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Button">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Button/button.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cube/cube.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cube/assets/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blue-sky/assets/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1198">
           <caret line="110" selection-start-line="110" selection-end-line="110" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blue-sky.html">
+    <entry file="file://$PROJECT_DIR$/Anexinet/img/generic-image.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Anexinet/anexinet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="560">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Anexinet/assets/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="89" column="1" selection-start-line="89" selection-end-line="89" selection-end-column="1" />
         </state>
       </provider>
     </entry>

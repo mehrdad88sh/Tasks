@@ -1,0 +1,21 @@
+div.a {
+    width: 150px;
+    height: 210px;
+    background-color: yellow;
+    transform-origin: center;
+    transform: rotate(45deg);
+}
+
+.b {
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    transform: skewY(20deg);
+}
+
+.c {
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    transform: scaleY(1.5);
+}
