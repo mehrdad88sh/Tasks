@@ -67,7 +67,7 @@ table {
 
 
 body {
-    background-image: url(https://www.anexinet.com/wp-content/uploads/2018/05/generic-image.jpg);
+    background-image: url("../../img/generic-image.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
@@ -82,33 +82,71 @@ body {
 }
 
 #header {
-    width: 1024px;
-    margin: 0 auto;
     display: flex;
+    justify-content: space-evenly;
 }
 
-.navigation-bar {
-    display: flex;
+.logo {
+    margin: 20px;
+    width: 15%;
 }
 
 .menu {
     display: flex;
-    padding: 15px;
-    margin: 0 60px 0 60px;
     justify-content: space-evenly;
+    margin: 20px;
     align-items: center;
+    width: 30%;
+}
+
+.off .menu {
+    color: white;
 }
 
 .menu li {
-    padding-left: 10px;
+    margin: 10px;
+    transition-property: width;
+    transition-duration: 2s;
+    white-space: nowrap;
 }
 
-.contact {
-    display: flex;
-    align-items: center;
+.menu li:hover {
+    cursor: pointer;
+    border-bottom: 1px solid red;
+    width: 50px;
 }
 
 .main {
     width: 1024px;
     margin: 0 auto;
+}
+
+.off .main {
+    color: white;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.off {
+    background: #1e1e1e;
 }
