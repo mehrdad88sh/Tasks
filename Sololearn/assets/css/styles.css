@@ -130,8 +130,3 @@ li.babylions {
     list-style-type: disc;
     font-size: larger;
 }
-
-table {
-    border-collapse: separate;
-    border-spacing: 20px 40px;
-}
