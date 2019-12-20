@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* end of CSS Reset */
+
+.header{
+    background-color: #38373b;
+    height: 120px;
+    width: 100%;
+    background-image: url("../../img/logo.png");
+    background-repeat: no-repeat;
+}
+
+.main {
+    background-color: rgb(255, 184, 62);
+    height: 50em;
+    background-image: url("../../img/leotile.jpg");
+}
+
+.main ul {
+    display: flex;
+    flex-direction: row;
+    border: solid 1px red;
+    width: 100%;
+    height: 50%;
+}
+
+li.leo {
+    background-image: url("../../img/leo.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+    padding: 10%;
+    margin: 10px;
+}
+
+li.panda {
+    background-image: url("../../img/Panda.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+    padding: 10%;
+    margin: 10px;
+}
+
+li.lion {
+    background-image: url("../../img/lion.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+    padding: 10%;
+    margin: 10px;
+}
+
+li.babylions {
+    background-image: url("../../img/babylions.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50%;
+    padding: 10%;
+    margin: 10px;
+}
+
+.footer{
+    background-color: #56EE4A;
+    height: 400px;
+    width: 100%;
+    background-image: url("https://natgeo.imgix.net/misc/newsletter.jpg");
+}
+
+.list-style {
+    list-style-position: inside;
+    list-style-type: disc;
+    font-size: larger;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 20px 40px;
+}
