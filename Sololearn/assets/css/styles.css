@@ -126,7 +126,24 @@ li.babylions {
 }
 
 .list-style {
-    list-style-position: inside;
-    list-style-type: disc;
-    font-size: larger;
+    list-style: disc inside url("../../img/check-solid.svg");
+    font-size: 40px;
 }
+
+a:link{
+    color:blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
