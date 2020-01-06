@@ -61,7 +61,7 @@ table {
 /* end of CSS Reset */
 
 body {
-    background-image: url("../../img/generic-image.jpg");
+    background-image: url("../img/generic-image.jpg");
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;

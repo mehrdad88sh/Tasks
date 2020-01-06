@@ -64,14 +64,14 @@ table {
     background-color: #38373b;
     height: 120px;
     width: 100%;
-    background-image: url("../../img/logo.png");
+    background-image: url("../img/logo.png");
     background-repeat: no-repeat;
 }
 
 .main {
     background-color: rgb(255, 184, 62);
     height: 50em;
-    background-image: url("../../img/leotile.jpg");
+    background-image: url("../img/leotile.jpg");
 }
 
 .main ul {
@@ -83,7 +83,7 @@ table {
 }
 
 li.leo {
-    background-image: url("../../img/leo.jpg");
+    background-image: url("../img/leo.jpg");
     background-repeat: no-repeat;
     width: 100%;
     height: 50%;
@@ -92,7 +92,7 @@ li.leo {
 }
 
 li.panda {
-    background-image: url("../../img/Panda.jpg");
+    background-image: url("../img/Panda.jpg");
     background-repeat: no-repeat;
     width: 100%;
     height: 50%;
@@ -101,7 +101,7 @@ li.panda {
 }
 
 li.lion {
-    background-image: url("../../img/lion.jpg");
+    background-image: url("../img/lion.jpg");
     background-repeat: no-repeat;
     width: 100%;
     height: 50%;
@@ -110,7 +110,7 @@ li.lion {
 }
 
 li.babylions {
-    background-image: url("../../img/babylions.png");
+    background-image: url("../img/babylions.png");
     background-repeat: no-repeat;
     width: 100%;
     height: 50%;
@@ -126,7 +126,7 @@ li.babylions {
 }
 
 .list-style {
-    list-style: disc inside url("../../img/check-solid.svg");
+    list-style: disc inside url("../img/check-solid.svg");
     font-size: 40px;
 }
 
