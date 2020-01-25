@@ -144,3 +144,12 @@ body {
 .off {
     background: #1e1e1e;
 }
+
+.page-title {
+    color: orangered;
+    font-size: 30px;
+}
+
+.page-subtitle {
+    width: 50%;
+}
