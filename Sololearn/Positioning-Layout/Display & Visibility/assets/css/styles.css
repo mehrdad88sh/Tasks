@@ -1,0 +1,24 @@
+div {
+    border: solid 1px cornflowerblue;
+}
+
+p.block {
+    display: block;
+}
+
+p.inline {
+    display: inline;
+}
+
+p.none {
+    display: none;
+}
+
+p.visible {
+    visibility: visible;
+}
+
+p.hidden {
+    visibility: hidden;
+}
+
