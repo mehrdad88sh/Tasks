@@ -1,0 +1,18 @@
+p {
+    border: solid 1px red;
+    width: 50%;
+    height: 300px;
+    overflow: auto;
+    text-align: justify;
+}
+img {
+    border: solid 1px blue;
+    margin: 0 8px 8px 0;
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+span {
+    font-size: 20px;
+}
