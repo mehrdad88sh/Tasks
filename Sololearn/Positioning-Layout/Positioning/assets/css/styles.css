@@ -1,14 +1,18 @@
-p.position-fixed {
+.position-fixed {
     position: fixed;
     top: 140px;
     left: 230px;
     color: dodgerblue;
 }
 
-p.position_relative{
+.position-relative{
     position: relative;
     top: 40px;
-    left: 550px;
-    color: red;
+    left: 400px;
+    color: #617eff;
+    width: 25em;
 }
 
+.position-absolute {
+    position: absolute;
+}
