@@ -16,3 +16,7 @@ img {
 span {
     font-size: 20px;
 }
+
+.floating {
+    float: left;
+}
