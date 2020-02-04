@@ -1,0 +1,16 @@
+main {
+    border: solid 2px black;
+    width: 59%;
+    float: left;
+}
+
+span {
+    border: solid 2px black;
+    width: 40%;
+    float: right;
+}
+
+footer {
+    border: solid 2px black;
+    clear: both;
+}
